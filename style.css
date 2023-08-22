@@ -1,0 +1,60 @@
+ 
+*{
+    margin: 0;
+    padding: 5;
+    box-sizing: border-box;
+    background: #F4CE6A;   
+}
+nav{
+     padding: 20px 10%;
+     height: 15vh;
+}
+nav ul {
+    display: flex;
+    align-items: center;    
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 5%;
+    font-weight: 500;
+    }
+
+
+/* css section */
+main{
+    display: flex;
+    align-items:center;
+    margin-left: 10%;
+    gap: 25%;  
+    justify-content: center;
+}
+
+img {
+    border: 1px solid green;
+}
+
+.left main{
+    width: 40%;
+}
+
+.left main h1{
+    font-size: 67px;
+}
+
+p{
+    margin: 10% 0;
+}
+
+button{
+    padding: 15px 20px;
+    border: none;
+    background-color: green;
+    border: 2px;
+    border-radius: 20px;
+}
+
+
+.rightmain{
+    width: 60%;
+}
